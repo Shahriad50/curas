@@ -1,0 +1,63 @@
+--------------Residence Automation System Requiments--------------
+
+#What is required of our system? 
+
+1. Keep track of all the apartment owners and residents in a database: 
+	 The system could update the database with new residents as
+	 they move in, and remove residents as they move out. The system could also
+	 allow residents to update their own contact information, such as phone numbers 
+	 and email addresses etc.(which is one of many.)
+	 
+2. Show any visitor which apartment is available based on their criteria:  
+	 The system could allow visitors to search for available apartments based on 
+	 criteria such as the number of bedrooms, the square footage, and the monthly 
+	 rent. Visitors could also be able to view detailed information about each apartment, 
+	 including photographs, floor plans, and a list of amenities. 
+	 
+3. Access control: the system could send residents notifications when visitors arrive
+	 and allow them to grant or deny access remotely, or from a concierge desk.(--etc)
+
+4. Maintenance and repair management: 
+	 The system could allow residents to submit maintenance and repair requests. 
+	 Once a request is submitted, the system could automatically notify the appropriate
+	 maintenance staff, and allow residents to track the status of their request
+	 in real-time.
+	 
+5. Parking management: 
+	 The system could allow residents to reserve parking spots in advance. 
+	 It could also provide real-time information on the number of available 
+	 parking spots to visitors and residents.
+
+6. Community features: 
+	 The system could include a calendar of events, a forum for discussion, 
+	 and allow residents to create and join groups based on their interests. 
+	 Additionally, the system could allow residents to communicate with each
+	 other and the building staff, and post announcements and updates on the 
+	 bulletin board.
+
+7. Online Order Management: 
+	 The system could automatically notify residents 
+	 when a package is delivered to the building, and allow them to request for 
+	 package to be delivered to a specific location within the building, such as 
+	 the front desk, or to their own apartment.
+	 
+8. Smart scheduling: 
+	 The system could automatically schedule cleaning, maintenance, and other services
+	 based on the occupancy and usage of the building. Additionally, it could allow 
+	 residents and staff to schedule events, or reserve common areas and amenities,
+	 such as gym, pool or meeting rooms, and enforce rules and regulations. 
+	 
+9. Rent collection: 
+     The RAS system can be integrated with a payment gateway, allowing residents 
+	 to make rent payments online. The system can automatically track rent 
+	 payments and send reminders to residents who have not yet paid.
+	 
+10. Rent history: 
+	 The RAS can keep a record of all rent payments, including the date, amount, and method 
+	 of payment. This information can be accessed by residents through.
+
+11. Rent reports: 
+	 The RAS can generate reports on rent payments, including the total amount collected,
+	 the number of payments, and the number of residents who have paid their rent, which 
+	 can be useful for building managers and owners to understand and track the financial 
+	 aspect of the building.

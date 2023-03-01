@@ -1,0 +1,353 @@
+body{
+
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-top: 20px;
+}
+.navbar{
+  width: 100%;
+  overflow-x: hidden;
+}
+.mydiv {
+        padding: 10px;
+        border:2px outset black;
+        background-color: skyblue;
+        text-align: center;
+}
+
+gradient-custom {
+    /* fallback for old browsers */
+    background: #f093fb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, rgba(240, 147, 251, 1), rgba(245, 87, 108, 1))
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+}
+.navbar-brand, .logo{
+  font-weight: bold;
+  font-size: 40px;
+  color: green;
+  padding-right: 30px;
+  z-index: 1200;
+  float: left;
+
+}
+.nav-item .active{
+  background-color: blueviolet;
+}
+.logo{
+
+    font-weight: bold;
+    font-size: 40px;
+    color: green;
+    padding-right: 30px;
+    z-index: 1200;
+    float: left;
+
+}
+.nav-item ul li{
+    display: flex;
+    line-height: 40px;
+    margin: 0 5px;
+  }
+.navbar-link .navbar-link{
+    list-style-type: none;
+
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition: .3s;
+  }
+  h1,.building-name{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: serif;
+    font-weight: 300;
+    font-size: x-large;
+    color: rgb(8, 8, 8);
+  }
+  .building-info{
+    margin-top: 50px;
+  }
+  p{
+    margin-right: 10px;
+  }
+  h1{
+    margin-top: 20px;
+    margin-bottom: auto;
+    
+  }
+  #mod-building{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: serif;
+    font-size: x-large;
+
+  }
+  #form{
+    align-items: center;
+     width: 50%;
+     background-color:lightgreen;
+  }
+  @media(max-width:768px){
+    body{
+        background-color: aqua;
+    }
+  }
+ .homepageBuild, #h-b-list{
+    background-color:white;
+  
+
+  }
+  .displayApartmentbody{
+    background-color:none;
+  }
+  .container ,.my-5 .displayApartment,#b-ap-list{
+      background-color: white;
+
+  }
+  .owner-card{
+    margin-top:120px;
+    margin-left:30px;
+    color: blue;
+  }
+  .delete-btn{
+    margin-left:30px;
+  }
+  .location-card{
+    margin-top:20px;
+    margin-left:30px;
+  }
+  .card-title{
+    color:crimson;
+    background-color: #1b9bff;
+  }
+  .card-body{
+    background-color: lightgreen;
+    color: rgb(219, 219, 231);
+  }
+  .apartment-list-table{
+    grid-area: main;
+    margin-right: 200px;
+    width:74%;
+  }
+  .owner-list{
+    grid-area: ow-location;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 200px;
+  }
+  .grid-container{
+    display: grid;
+    grid-template-areas: 'ow_location ow_location  main main main main';
+      gap: 10px;
+      background-color:white;
+      padding: 10px;
+  }
+
+  .grid-container ,#src-f{
+    display: grid;
+    grid-template-areas: 'searh_flat search_flat  apartment-list-table apartment-list-table apartment-list-table apartment-list-table';
+      gap: 10px;
+      background-color:white;
+      padding: 10px;
+  }
+  .apartment-list-table,#indexTable{
+    grid-area: main;
+    margin-left: 200px;
+    width:74%;
+  }
+  #update-b-form{
+    width: 50%;
+  }
+  /* .grid-container>div{
+    background-color: #e7eaec;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+  } */
+
+  .container, #apartmentinfo{
+      background-color: white;
+
+  }
+  #buildingApartment
+    tr:nth-child(even){background-color: #f2f2f2;}
+   #buildingApartment tr:hover {background-color: #ddd;} 
+  #buildingApartment{
+    width:90%;
+  }
+.col-xs-2, .col-2, .fixed-top ,.owner-info .one{
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+  .col-lg-10, .col-10, .offset-down, .a-p-list, .two{
+    margin-left: 274px;
+    margin-top: 10px;
+    max-width: 100%;
+    overflow-x: hidden;
+
+  }
+  .col-lg-10, .col-10, .offset-down, .apartment_list, .three{
+    margin-left: 265px;
+    max-width: 100%;
+    overflow-x: hidden;
+
+   
+  }
+  #ap-cer-building {
+    width: 80%;
+    margin-left: 265px;
+  }
+  #ap-cer-building tr:nth-child(even){background-color: #f2f2f2;}
+
+  #ap-cer-building  tr:hover {background-color: #ddd;}
+  #table-title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+
+  }
+
+  #table-header{
+    text-align: center;
+  }
+  .fixed-top, .owner-info, .one{
+    margin-left: 30px;
+    margin-top:120px;
+  }
+  #search-flat{
+    margin-top: 30px;
+     margin-right:10px;
+    color:blue;
+  }
+  #search-p{
+    color: black;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+  }
+  td,th{
+    text-align: center;
+  }
+
+  .row, .d-flex , .h-200 .my-5{
+    align-items:center ;
+    justify-content:center;
+
+  }
+  .login,#bgbody{
+        background-image: url(./Building/Apartments/bg1.jpg);
+    
+  }
+ .login-form,#form-body{
+background-color:lightgreen;
+ width:30%;
+ align-items: center;
+ margin-top: 150px;
+ }
+#form-head,h4{
+ color:blue; text-align:center;font-weight:bold;
+ }
+  .form-level{
+    margin-left: 10px;
+  }
+  .buildinglist,#addbuildingbtn, #enlistedbuilding{
+    background-color: none;
+    margin-top: 75px;
+    margin-left: 50px;
+    margin-right: 10px;
+   
+  }
+  table{
+    border-style: collapse;
+    border-width: 2px solid;
+
+  }
+  #b-list-head{
+    text-align: center;
+  }
+  .container, .my-5, #signUpform ,#addapartmentform{
+  align-items: center;
+   width: 40%;
+   background-color:lightgreen;
+  }
+  .container, .my-5,#addbuilding{
+    width: 50%;
+  }
+  .container, .my-5, #apartmentinfo{
+    background-color: none;
+  }
+  .btn .btn-primary,#addbuildbtn{
+    width: 50%;
+  }
+   .owner-use,#update-use{
+    background-color: none;
+    align-items: center;
+  }
+  .owner-use,#update-use,#delete-btn,#update-btn{
+    align-items: center;
+    margin-left: 350px;
+  }
+  .card,#tenant-info-card{
+   width: 18rem; 
+   margin-left: 579px;
+   margin-top: 30px;
+    width: 20%;
+    padding: 10px;
+    background-color: white;
+  }
+  .container,.tenant-profile,#form{
+ align-items: center; width: 50%; background-color:lightgreen;
+ margin-top: 20px;
+
+  }
+  .box ,#headline{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
+  #signinhead{
+    font-size: 25px; text-align: center;font-weight:bold;
+  }
+  #signUpbtn{
+    width: 50%;
+    justify-content: center;
+  }
+  .building-table,#building-header{
+      text-align: center;
+  }
+  .building-list-header,#list-head{
+    text-align: center;margin-top:20px;margin-bottom:10px;
+  }
+
+  .rentlist,#monthlist{
+    width: 1200px;
+    margin-left: 100px;
+    align-items: center;
+
+  }
+  #rentlistheader{
+    text-align: center;
+  }
